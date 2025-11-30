@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM73606RNPR
+D Switching Voltage Regulators 3.5V to 36V,6A Synch Step-Down Volt
+K
+F http://www.ti.com/lit/ds/symlink/lm73606.pdf
+$ENDCMP
+#
+#End Doc Library

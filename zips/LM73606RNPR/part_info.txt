@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM73606RNPR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=31
+Version=2.1
+Released=2017-11-23 03:36:11
+Downloaded=2025-11-30 03:57:46
+3D=Y

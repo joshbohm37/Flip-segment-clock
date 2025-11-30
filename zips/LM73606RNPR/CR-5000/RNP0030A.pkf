@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RNP0030A"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RNP0030A")
+        (spec "default")
+    )
+)

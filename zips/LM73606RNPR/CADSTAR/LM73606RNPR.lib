@@ -1,0 +1,16 @@
+.LM73606RNPR :1 ;Switching Voltage Regulators 3.5V to 36V,6A Synch Step-Down Volt
+RNP0030A
+*STM IC
+*NGS
+*PLB 1="SW_1" 2="SW_2" 3="SW_3" 4="SW_4" 5="SW_5" 6="CBOOT" 7="VCC" 8="BIAS" 9="RT" 10="SS/TRK" 11="FB" 12="NC_1" 13="NC_2" 14="NC_3" 15="NC_4" 16="PGOOD" 17="SYNC/MODE" 18="EN" 19="AGND" 20="PVIN_1" 21="PVIN_2" 22="PVIN_3" 23="PGND_1" 24="PGND_2" 25="PGND_3" 26="PGND_4" 27="NC_5" 28="NC_6" 29="NC_7" 30="NC_8" 31="THERM GND"
+*MXP 31
+*DFN LM73606RNPR
+~!Mouser Part Number (595-LM73606RNPR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM73606RNPR?qs=1mbolxNpo8cvH90iE325zw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM73606RNPR)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/lm73606.pdf)
+~!Height (-)
+~!3D_Model (LM73606RNPR)
+LM73606RNPR
+1.1!Y 2.1!Y 3.1!Y 4.1!Y 5.1!Y 6.1!U 7.1!P 8.1!I 9.1!I 10.1!I 11.1!I 12.1!G 13.1!G 14.1!G 15.1!G 16.1!Y 17.1!I 18.1!I 19.1!G 20.1!I 21.1!I 22.1!I 23.1!G 24.1!G 25.1!G 26.1!G 27.1!G 28.1!G 29.1!G 30.1!G 31.1!G 

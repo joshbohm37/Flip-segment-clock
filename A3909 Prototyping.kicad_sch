@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ae336cd7-2593-4218-978e-a7691697d69e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 184.15 125.73)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64d25e49-7e7d-43ef-b4a7-b777bdf7e4a9")
+		(property "Sheetname" "High Side Power Supply"
+			(at 184.15 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Supply.kicad_sch"
+			(at 184.15 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A3909 Prototyping"
+				(path "/ae336cd7-2593-4218-978e-a7691697d69e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 125.73)
+		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a9d4adb-6fd1-4db4-ab1a-8dbb88f4d495")
+		(property "Sheetname" "Gate Drivers"
+			(at 227.33 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Drivers.kicad_sch"
+			(at 227.33 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A3909 Prototyping"
+				(path "/ae336cd7-2593-4218-978e-a7691697d69e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

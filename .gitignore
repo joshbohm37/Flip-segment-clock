@@ -31,6 +31,5 @@ production/A3909_Prototyping.zip
 \#auto_saved_files\#
 \#auto_saved_files\#
 
-Manufacturing\*
-/Manufacturing
-/production
+/hardware/fabrication/Manufacturing
+/hardware/fabrication/production

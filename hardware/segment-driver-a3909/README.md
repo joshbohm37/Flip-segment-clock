@@ -1,0 +1,2 @@
+# a3909 segment driver breakout board
+A breakout board used for driving 1 inch 7 segment electromechanical displays. Built around the A3909. Designed to test electrical properties/control mechanisms for the alfazeta 7 segment flip displays. Design will be integrated into final main board.

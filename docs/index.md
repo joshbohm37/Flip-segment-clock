@@ -34,15 +34,15 @@ This system is comprised of several connected subsystems. The STM32 coordinates 
 ## Documentation Guide
 
 - index --> you are here
-- system-overview
+- [system-overview](system-overview.md)
     - More in depth explaination of the system architecture, how modules connect, project requirements, physical connection/modularity of actual PCB.
-- changelog
+- [changelog](changelog.md)
     - Log file of revisions to the project.
 
-- subsystems
+- [subsystems](subsystems/)
     - In depth explainations of each module and how it functions.
 
-- design-notes
+- [design-notes](design-notes/)
     - Explainations of design choices and documentation of the thought process behind them.
 
 ## Current Status

@@ -2,9 +2,177 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 831ae1ef-1bd9-4f70-83f4-283bc54c43f2)
+	(uuid "831ae1ef-1bd9-4f70-83f4-283bc54c43f2")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 176.53 137.16)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35225dad-1521-43ed-b68d-d0d344ffd3d2")
+		(property "Sheetname" "DS3231"
+			(at 176.53 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DS3231.kicad_sch"
+			(at 176.53 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flip-segment-clock_main-board"
+				(path "/831ae1ef-1bd9-4f70-83f4-283bc54c43f2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 232.41 137.16)
+		(size 19.05 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68afc037-e8d6-4d8e-9784-416aa391c26c")
+		(property "Sheetname" "Segment-Drivers"
+			(at 232.41 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "segment-drivers.kicad_sch"
+			(at 232.41 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flip-segment-clock_main-board"
+				(path "/831ae1ef-1bd9-4f70-83f4-283bc54c43f2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 137.16)
+		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c23a0e0-12b9-4301-b469-91a3098c81d4")
+		(property "Sheetname" "STM32G071CBT6"
+			(at 146.05 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32G071CBT6.kicad_sch"
+			(at 146.05 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flip-segment-clock_main-board"
+				(path "/831ae1ef-1bd9-4f70-83f4-283bc54c43f2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 137.16)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c80d5652-08e5-4616-af71-78c224afc2ca")
+		(property "Sheetname" "Power-Supply"
+			(at 204.47 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 204.47 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flip-segment-clock_main-board"
+				(path "/831ae1ef-1bd9-4f70-83f4-283bc54c43f2"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

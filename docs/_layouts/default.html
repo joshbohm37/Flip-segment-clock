@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+
+  <style>
+    body {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      margin-top: 2rem;
+    }
+    nav {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 1rem;
+    }
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/system-overview' | relative_url }}">System</a>
+    <a href="{{ '/subsystems/power-architecture' | relative_url }}">Subsystems</a>
+  </nav>
+
+  {{ content }}
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</body>
+</html>

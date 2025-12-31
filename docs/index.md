@@ -1,6 +1,6 @@
 # Flip-Segment Clock
 
-This is a custom designed electromechanical flip segment clock. Using stm32-based control in conjuction with a highly accurate RTC module and network time synchronization over WiFi using [NTP](https://www.ntppool.org/en/).
+This is a custom-designed electromechanical flip segment clock. It uses a STM32-based controller in conjunction with a highly accurate RTC module and network time synchronization over Wi-Fi using [NTP](https://www.ntppool.org/en/).
 
 ## Project Goals
 
@@ -11,7 +11,8 @@ This is a custom designed electromechanical flip segment clock. Using stm32-base
 - WIP ADD MORE
 
 ## Sytem Architecture
-```mermaid
+<div class="mermaid">
+mermaid
 graph TD
 power[Power Architecture]
 mcu[STM32/Control]
@@ -27,7 +28,7 @@ driver --> display
 mcu <--> wifi
 mcu <--> rtc
 
-```
+</div>
 
 This system is comprised of several connected subsystems. The STM32 coordinates with the RTC module and WiFi / Time Synchronization module to keep as accurate time as possible. The STM32 then sends the current time to be displayed to the display driver which reduces the amount of GPIO required as well as handling the high current requirments of the Flip-Segment Display.
 
@@ -47,7 +48,7 @@ This system is comprised of several connected subsystems. The STM32 coordinates 
 
 ## Current Status
 
-- ~~Designing breakout board for display driver ~~ **complete**
+- ~~Design breakout board for display driver~~ **complete**
 - ~~Submit and pay for JLCPB manufacturing and assembly~~ **complete**
 - Testing display driver for optimal high side voltage/pulse widths
 

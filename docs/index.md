@@ -12,7 +12,6 @@ This is a custom-designed electromechanical flip segment clock. It uses a STM32-
 
 ## Sytem Architecture
 <div class="mermaid">
-mermaid
 graph TD
 power[Power Architecture]
 mcu[STM32/Control]

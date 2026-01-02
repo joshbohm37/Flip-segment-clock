@@ -985,10 +985,202 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 64.77 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56ca9237-a5c0-4de9-b48f-2f399d89f448")
+		(property "Reference" "#PWR05"
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 60.96 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0bc089b-1985-465c-98df-8d1a0c9aa332")
+		)
+		(instances
+			(project ""
+				(path "/831ae1ef-1bd9-4f70-83f4-283bc54c43f2/7c23a0e0-12b9-4301-b469-91a3098c81d4"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "STM32G071CBT6:STM32G071CBT6")
-		(at 54.61 63.5 0)
+		(at 64.77 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -997,7 +1189,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad1859f9-dcdb-4ffe-b3b9-5d22e768a6d4")
 		(property "Reference" "IC1"
-			(at 109.22 57.0798 0)
+			(at 119.38 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +1197,7 @@
 			)
 		)
 		(property "Value" "STM32G071CBT6"
-			(at 109.22 59.6198 0)
+			(at 119.38 63.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1205,7 @@
 			)
 		)
 		(property "Footprint" "STM32G071CBT6:QFP50P900X900X160-48N"
-			(at 101.6 150.8 0)
+			(at 111.76 154.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1215,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g071c8.pdf"
-			(at 101.6 250.8 0)
+			(at 111.76 254.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1225,7 @@
 			)
 		)
 		(property "Description" "Arm Cortex-M0+ 32-bit MCU, up to 128 KB Flash, 36 KB RAM, 4x USART, timers, ADC, DAC, comm. I/Fs, 1.7-3.6V"
-			(at 54.61 63.5 0)
+			(at 64.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1234,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 101.6 450.8 0)
+			(at 111.76 454.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1244,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-STM32G071CBT6"
-			(at 101.6 550.8 0)
+			(at 111.76 554.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1254,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G071CBT6?qs=PqoDHHvF648kq6bRqLhyjQ%3D%3D"
-			(at 101.6 650.8 0)
+			(at 111.76 654.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1264,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 101.6 750.8 0)
+			(at 111.76 754.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1274,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STM32G071CBT6"
-			(at 101.6 850.8 0)
+			(at 111.76 854.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1284,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C432212"
-			(at 54.61 63.5 0)
+			(at 64.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,6 +1443,18 @@
 					(unit 1)
 				)
 			)
+			(project "STM32G071CBT6"
+				(path "/99f7b8c9-94b2-4f71-8e96-e9b3d6ac7e41"
+					(reference "IC?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

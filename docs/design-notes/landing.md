@@ -1,4 +1,4 @@
-#Subsystems
+# Subsystems
 
 [Control Logic](control-logic.md)
 

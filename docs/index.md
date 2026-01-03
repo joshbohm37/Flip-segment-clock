@@ -39,10 +39,10 @@ This system is comprised of several connected subsystems. The STM32 coordinates 
 - [changelog](changelog.md)
     - Log file of revisions to the project.
 
-- [subsystems](subsystems/)
+- [subsystems](subsystems/landing.md)
     - In depth explainations of each module and how it functions.
 
-- [design-notes](design-notes/)
+- [design-notes](design-notes/landing.md)
     - Explainations of design choices and documentation of the thought process behind them.
 
 ## Current Status

@@ -1405,7 +1405,7 @@
 		)
 		(uuid "fae9dd55-e844-474a-a7be-71b0fa07cf86")
 	)
-	(global_label "SCL_RTC"
+	(global_label "SCL"
 		(shape bidirectional)
 		(at 102.87 58.42 0)
 		(fields_autoplaced yes)
@@ -1417,7 +1417,7 @@
 		)
 		(uuid "80caa004-7ac3-4cae-bd56-b42a1b0114aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9493 58.42 0)
+			(at 110.4741 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1427,7 @@
 			)
 		)
 	)
-	(global_label "SDA_RTC"
+	(global_label "SDA"
 		(shape bidirectional)
 		(at 102.87 60.96 0)
 		(fields_autoplaced yes)
@@ -1439,7 +1439,7 @@
 		)
 		(uuid "80caa004-7ac3-4cae-bd56-b42a1b0114ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.0098 60.96 0)
+			(at 110.5346 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

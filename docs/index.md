@@ -34,6 +34,7 @@ This system is comprised of several connected subsystems. The STM32 coordinates 
 ## Documentation Guide
 
 - index --> you are here
+
 - [system-overview](system-overview.md)
     - More in depth explaination of the system architecture, how modules connect, project requirements, physical connection/modularity of actual PCB.
 - [changelog](changelog.md)
